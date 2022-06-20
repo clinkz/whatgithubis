@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T07:07:25.155Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="y0sm6xv9eF9Ge1a1A9g3" version="19.0.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-20T07:08:43.161Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="enYfI01G7Er9HITT_j0s" version="19.0.3" type="github" pages="4">
   <diagram id="W6HGTKn-jRhKpeLh2AHC" name="预付业务流程">
     <mxGraphModel dx="912" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="2" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -493,7 +493,7 @@
           <mxGeometry y="30" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="7pUqCuliJamKVBH40N4q-8" value="预付（新）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="7pUqCuliJamKVBH40N4q-13">
-          <mxGeometry x="60" width="60" height="30" as="geometry" />
+          <mxGeometry x="50" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7pUqCuliJamKVBH40N4q-14" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="270" y="380" width="120" height="230" as="geometry" />
