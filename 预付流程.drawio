@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T07:48:59.226Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="MYBWUPPhL06nO239-dgE" version="19.0.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-20T07:50:03.542Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="8xpV7GVNrlxwpOqDkiw0" version="19.0.3" type="github" pages="4">
   <diagram id="W6HGTKn-jRhKpeLh2AHC" name="预付业务流程">
     <mxGraphModel dx="912" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="2" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -744,7 +744,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8ytgcO_-KjVkWrkTu4IX-1" value="预付单&#xa;PrepayBill" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="160" y="190" width="160" height="234" as="geometry" />
+          <mxGeometry x="190" y="190" width="160" height="234" as="geometry" />
         </mxCell>
         <mxCell id="8ytgcO_-KjVkWrkTu4IX-2" value="- id: Long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontColor=#000000;" vertex="1" parent="8ytgcO_-KjVkWrkTu4IX-1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -771,7 +771,7 @@
           <mxGeometry y="208" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8ytgcO_-KjVkWrkTu4IX-9" value="&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;预付类型&lt;br&gt;PrepayType&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;shadow=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="410" y="50" width="140" height="106" as="geometry" />
+          <mxGeometry y="280" width="140" height="106" as="geometry" />
         </mxCell>
         <mxCell id="8ytgcO_-KjVkWrkTu4IX-11" value="code" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontColor=#000000;" vertex="1" parent="8ytgcO_-KjVkWrkTu4IX-9">
           <mxGeometry y="50" width="140" height="26" as="geometry" />
@@ -779,11 +779,13 @@
         <mxCell id="8ytgcO_-KjVkWrkTu4IX-10" value="desc" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontColor=#000000;" vertex="1" parent="8ytgcO_-KjVkWrkTu4IX-9">
           <mxGeometry y="76" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8ytgcO_-KjVkWrkTu4IX-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8ytgcO_-KjVkWrkTu4IX-6" target="8ytgcO_-KjVkWrkTu4IX-11">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="8ytgcO_-KjVkWrkTu4IX-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8ytgcO_-KjVkWrkTu4IX-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="8ytgcO_-KjVkWrkTu4IX-13" value="预付单明细&#xa;PrepayDetail" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="160" y="490" width="160" height="234" as="geometry" />
+          <mxGeometry x="190" y="490" width="160" height="234" as="geometry" />
         </mxCell>
         <mxCell id="8ytgcO_-KjVkWrkTu4IX-14" value="- id: Long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontColor=#000000;" vertex="1" parent="8ytgcO_-KjVkWrkTu4IX-13">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -810,7 +812,7 @@
           <mxGeometry y="208" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8ytgcO_-KjVkWrkTu4IX-21" value="&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;预付明细来源类型&lt;br&gt;PrepaySourceType&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;shadow=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="570" y="50" width="140" height="106" as="geometry" />
+          <mxGeometry y="532" width="140" height="106" as="geometry" />
         </mxCell>
         <mxCell id="8ytgcO_-KjVkWrkTu4IX-22" value="code" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;fontColor=#000000;" vertex="1" parent="8ytgcO_-KjVkWrkTu4IX-21">
           <mxGeometry y="50" width="140" height="26" as="geometry" />
@@ -820,9 +822,12 @@
         </mxCell>
         <mxCell id="8ytgcO_-KjVkWrkTu4IX-26" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;fontColor=#000000;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8ytgcO_-KjVkWrkTu4IX-8" target="8ytgcO_-KjVkWrkTu4IX-13">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
-            <mxPoint x="260" y="450" as="sourcePoint" />
-            <mxPoint x="250" y="430" as="targetPoint" />
+            <mxPoint x="290" y="450" as="sourcePoint" />
+            <mxPoint x="280" y="430" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8ytgcO_-KjVkWrkTu4IX-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="8ytgcO_-KjVkWrkTu4IX-16" target="8ytgcO_-KjVkWrkTu4IX-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
