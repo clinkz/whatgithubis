@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T03:30:25.965Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="qUB8X4Dq981JzLzZ4DF9" version="19.0.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-20T06:09:37.037Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="920anBuiqzD06OnlWrqP" version="19.0.3" type="github" pages="4">
   <diagram id="W6HGTKn-jRhKpeLh2AHC" name="预付业务流程">
     <mxGraphModel dx="912" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="2" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -241,7 +241,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K-5mYq-RlFeXvGJZ31WC" name="Page-2">
-    <mxGraphModel dx="2347" dy="2202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1739" dy="1789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -501,6 +501,29 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1qZhPAOO_XHRtE7czPGz" name="Page-3">
+    <mxGraphModel dx="912" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hSSDwn-qpF6n2x3ykTJz-1" value="采购" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hSSDwn-qpF6n2x3ykTJz-2" value="Use Case" style="ellipse;whiteSpace=wrap;html=1;shadow=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="270" y="120" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hSSDwn-qpF6n2x3ykTJz-3" value="财务" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hSSDwn-qpF6n2x3ykTJz-4" value="出纳" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="510" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hSSDwn-qpF6n2x3ykTJz-7" value="采购经理" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bES2mjRdxGLAH6wYJD91" name="Page-4">
     <mxGraphModel dx="912" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
