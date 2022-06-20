@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T06:55:16.815Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="spr3rP5fDkzvwCDPEmdz" version="19.0.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-20T06:55:52.584Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="CvJYV1e-hZAAo7DRqwcm" version="19.0.3" type="github" pages="4">
   <diagram id="W6HGTKn-jRhKpeLh2AHC" name="预付业务流程">
     <mxGraphModel dx="912" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="2" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -163,7 +163,12 @@
         </mxCell>
         <mxCell id="T7JFVsmEhw-aMUsfRaLt-26" value="5.1支付成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T7JFVsmEhw-aMUsfRaLt-25">
           <mxGeometry x="-0.7812" y="-4" relative="1" as="geometry">
-            <mxPoint x="-71" y="-6" as="offset" />
+            <mxPoint x="-96" y="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0vmTJOJTwvx8dGB5ADXu-5" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="T7JFVsmEhw-aMUsfRaLt-25">
+          <mxGeometry x="-0.9039" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="T7JFVsmEhw-aMUsfRaLt-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="T7JFVsmEhw-aMUsfRaLt-5" source="T7JFVsmEhw-aMUsfRaLt-16" target="T7JFVsmEhw-aMUsfRaLt-10">
@@ -179,10 +184,15 @@
             <mxPoint x="-44" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="0vmTJOJTwvx8dGB5ADXu-6" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="T7JFVsmEhw-aMUsfRaLt-27">
+          <mxGeometry x="-0.8" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="T7JFVsmEhw-aMUsfRaLt-8" value="出纳（财务AP模块）" style="swimlane;html=1;startSize=20;" vertex="1" parent="T7JFVsmEhw-aMUsfRaLt-5">
           <mxGeometry x="645" width="200" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="T7JFVsmEhw-aMUsfRaLt-16" value="支付" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="T7JFVsmEhw-aMUsfRaLt-8">
+        <mxCell id="T7JFVsmEhw-aMUsfRaLt-16" value="支付结果？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="T7JFVsmEhw-aMUsfRaLt-8">
           <mxGeometry x="40" y="365" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="T7JFVsmEhw-aMUsfRaLt-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;" edge="1" parent="T7JFVsmEhw-aMUsfRaLt-8" source="T7JFVsmEhw-aMUsfRaLt-41" target="T7JFVsmEhw-aMUsfRaLt-42">
@@ -194,6 +204,11 @@
         <mxCell id="T7JFVsmEhw-aMUsfRaLt-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="T7JFVsmEhw-aMUsfRaLt-8" source="T7JFVsmEhw-aMUsfRaLt-42" target="T7JFVsmEhw-aMUsfRaLt-55">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="65" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0vmTJOJTwvx8dGB5ADXu-4" value="通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="T7JFVsmEhw-aMUsfRaLt-44">
+          <mxGeometry x="0.28" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="T7JFVsmEhw-aMUsfRaLt-42" value="审核通过？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="T7JFVsmEhw-aMUsfRaLt-8">
