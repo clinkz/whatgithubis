@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T06:55:52.584Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="CvJYV1e-hZAAo7DRqwcm" version="19.0.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-20T07:07:25.155Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="y0sm6xv9eF9Ge1a1A9g3" version="19.0.3" type="github" pages="4">
   <diagram id="W6HGTKn-jRhKpeLh2AHC" name="预付业务流程">
     <mxGraphModel dx="912" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="2" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -451,9 +451,6 @@
         <mxCell id="hSSDwn-qpF6n2x3ykTJz-35" value="预付单请款" style="ellipse;whiteSpace=wrap;html=1;shadow=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="260" y="-960" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hSSDwn-qpF6n2x3ykTJz-37" value="预付单审批" style="ellipse;whiteSpace=wrap;html=1;shadow=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="260" y="-1130" width="140" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="hSSDwn-qpF6n2x3ykTJz-71" value="" style="swimlane;startSize=0;shadow=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="490" y="-1150" width="240" height="320" as="geometry" />
         </mxCell>
@@ -468,6 +465,15 @@
         </mxCell>
         <mxCell id="hSSDwn-qpF6n2x3ykTJz-66" value="支付请款单" style="ellipse;whiteSpace=wrap;html=1;shadow=0;fontColor=#000000;" vertex="1" parent="hSSDwn-qpF6n2x3ykTJz-71">
           <mxGeometry x="50" y="225.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jgYFYMPigM8kzDvFzJEt-1" value="" style="swimlane;startSize=0;shadow=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-1150" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jgYFYMPigM8kzDvFzJEt-2" value="流程中心" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontColor=#000000;" vertex="1" parent="jgYFYMPigM8kzDvFzJEt-1">
+          <mxGeometry x="20" y="6" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hSSDwn-qpF6n2x3ykTJz-37" value="预付单审批" style="ellipse;whiteSpace=wrap;html=1;shadow=0;fontColor=#000000;" vertex="1" parent="jgYFYMPigM8kzDvFzJEt-1">
+          <mxGeometry x="40" y="20" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
