@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-23T02:46:27.505Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="_6o_I76Upd_ScnsRvnmb" version="19.0.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-23T02:48:36.080Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="Rb3svRb8aTvlkBXLSSYO" version="19.0.3" type="github" pages="4">
   <diagram id="W6HGTKn-jRhKpeLh2AHC" name="预付业务流程">
     <mxGraphModel dx="912" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="2" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -479,6 +479,12 @@
         </mxCell>
         <mxCell id="hSSDwn-qpF6n2x3ykTJz-37" value="预付单审批" style="ellipse;whiteSpace=wrap;html=1;shadow=0;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" parent="jgYFYMPigM8kzDvFzJEt-1" vertex="1">
           <mxGeometry x="40" y="20" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n7ZkikEIMfGDdo3ESKFA-2" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-780" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n7ZkikEIMfGDdo3ESKFA-3" value="" style="ellipse;whiteSpace=wrap;html=1;gradientDirection=east;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-699" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
