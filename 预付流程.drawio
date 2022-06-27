@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-27T06:34:32.887Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="qiqG9o9UIcs3TvvPLuWP" version="19.0.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-27T06:40:38.234Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="Bmla2S0ntChgW6ywXdAt" version="19.0.3" type="github" pages="5">
   <diagram id="W6HGTKn-jRhKpeLh2AHC" name="预付业务流程">
     <mxGraphModel dx="912" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="2" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1708,6 +1708,36 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="810" y="1620" as="sourcePoint" />
             <mxPoint x="970" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="97WpKbI41qbDP7mq7p7n-18" value="PrepayFundConsumeServiceImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="245.5" y="1740" width="330" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="97WpKbI41qbDP7mq7p7n-19" value="+ vendorFundAccountService: VendorFundAccountService&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=0" vertex="1" parent="97WpKbI41qbDP7mq7p7n-18">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="97WpKbI41qbDP7mq7p7n-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=12;" vertex="1" parent="97WpKbI41qbDP7mq7p7n-18">
+          <mxGeometry y="52" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="97WpKbI41qbDP7mq7p7n-23" value=" + consumeByPrepayBill(PrepayBill): boolean&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="97WpKbI41qbDP7mq7p7n-18">
+          <mxGeometry y="60" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="97WpKbI41qbDP7mq7p7n-24" value="+ consumeBySettlementBill(SettlementBill): boolean&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="97WpKbI41qbDP7mq7p7n-18">
+          <mxGeometry y="86" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="97WpKbI41qbDP7mq7p7n-21" value="+ confirmConsume(Long purchaseId): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="97WpKbI41qbDP7mq7p7n-18">
+          <mxGeometry y="112" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="97WpKbI41qbDP7mq7p7n-22" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="97WpKbI41qbDP7mq7p7n-23" target="97WpKbI41qbDP7mq7p7n-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="190" y="1710" as="sourcePoint" />
+            <mxPoint x="350" y="1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="97WpKbI41qbDP7mq7p7n-25" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="97WpKbI41qbDP7mq7p7n-18" target="97WpKbI41qbDP7mq7p7n-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="270" y="1700" as="sourcePoint" />
+            <mxPoint x="430" y="1700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
